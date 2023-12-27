@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav{
+    background-color: gray;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    height: 50px;
+}
+
+button,input{
+    padding: 3px 4px;
+    border-radius: 8px;
+    border: none;
+}
+
+button{
+    background-color: black;
+    color: antiquewhite;
+}
+
+button:hover{
+    background-color: blueviolet;
+    font-style:italic ;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    padding: 8px;
+}
+
+.mainUI li:hover{
+    background-color: black;
+}
+
+.dropdown-containr{
+    margin-top: 8px;
+    display: none;
+    margin-left: 14px;
+    position: absolute;
+}
+
+.dropdown-containr li,.SubserviceDropdown-container1 li,.SubserviceDropdown-container2,.SubserviceDropdown-container3,.nested-dropdown-container,{
+    background-color: black;
+}
+
+.SubserviceDropdown-container1{
+    margin: top -25px;
+    margin-left: 81px;
+    position: absolute;
+    display: none;
+}
+
+.SubserviceDropdown-container2{
+    margin: top -25px;
+    margin-left: 81px;
+    position: absolute;
+    display: none;
+}
+
+.SubserviceDropdown-container3{
+    margin: top -25px;
+    margin-left: 81px;
+    position: absolute;
+    display: none;
+}
+
+.nested-dropdown-container{
+    position: absolute;
+    margin-left: 106px;
+    margin-top: -24px;
+    width: 133%;
+    display: none;
+}
+
+.dropdown-hover .dropdown-containr{
+    display: block;
+}
+
+.SubserviceDropdown3:hover .SubserviceDropdown-container3{
+    display: block;
+}
+
+.SubserviceDropdown2:hover .SubserviceDropdown-container2{
+    display: block;
+}
+
+.SubserviceDropdown1:hover .SubserviceDropdown-container1{
+    display: block;
+}
+
+.mainbody{
+    display: flex;
+}
+
+.first{
+    text-align: center;
+}
+
+aside{
+    width: 20%;
+    background-color: chocolate;
+    height: 806px;
+}
+
+.picture-section{
+    width: 88%;
+}
+
+.aside-menu li:hover{
+    background-color: gray;
+}
+
+.footer{
+    display: flex;
+}
+
+.header{
+    color: cyan;
+    background-color: brown;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 200px;
+    color: white;
+    width: 33%;
+    text-align: center;
+}
+
+.bos1{
+    background-color: crimson;
+}
+
+.bos2{
+    background-color: darkgoldenrod;
+}
+
+.bos3{
+    background-color: crimson;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
